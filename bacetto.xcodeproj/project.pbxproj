@@ -21,6 +21,14 @@
 		D3E2FB791878B53B00EE0F1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E2FB5B1878B53B00EE0F1A /* UIKit.framework */; };
 		D3E2FB811878B53B00EE0F1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FB7F1878B53B00EE0F1A /* InfoPlist.strings */; };
 		D3E2FB831878B53B00EE0F1A /* bacettoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2FB821878B53B00EE0F1A /* bacettoTests.m */; };
+		D3E2FB911878B58500EE0F1A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2FB8E1878B58500EE0F1A /* NSData+Base64.m */; };
+		D3E2FB921878B58500EE0F1A /* UIEffectDesignerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2FB901878B58500EE0F1A /* UIEffectDesignerView.m */; };
+		D3E2FB941878B58C00EE0F1A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E2FB931878B58C00EE0F1A /* QuartzCore.framework */; };
+		D3E2FB9B1878BAF800EE0F1A /* hearts.ped in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FB981878BAF800EE0F1A /* hearts.ped */; };
+		D3E2FB9C1878BAF800EE0F1A /* puppet_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FB991878BAF800EE0F1A /* puppet_normal.png */; };
+		D3E2FB9D1878BAF800EE0F1A /* puppet_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FB9A1878BAF800EE0F1A /* puppet_pressed.png */; };
+		D3E2FB9F1878C07500EE0F1A /* bacetto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FB9E1878C07500EE0F1A /* bacetto.mp3 */; };
+		D3E2FBA11878C0AA00EE0F1A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E2FBA01878C0AA00EE0F1A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		D3E2FB7E1878B53B00EE0F1A /* bacettoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bacettoTests-Info.plist"; sourceTree = "<group>"; };
 		D3E2FB801878B53B00EE0F1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3E2FB821878B53B00EE0F1A /* bacettoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bacettoTests.m; sourceTree = "<group>"; };
+		D3E2FB8D1878B58500EE0F1A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		D3E2FB8E1878B58500EE0F1A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		D3E2FB8F1878B58500EE0F1A /* UIEffectDesignerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEffectDesignerView.h; sourceTree = "<group>"; };
+		D3E2FB901878B58500EE0F1A /* UIEffectDesignerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEffectDesignerView.m; sourceTree = "<group>"; };
+		D3E2FB931878B58C00EE0F1A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3E2FB981878BAF800EE0F1A /* hearts.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hearts.ped; sourceTree = "<group>"; };
+		D3E2FB991878BAF800EE0F1A /* puppet_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppet_normal.png; sourceTree = "<group>"; };
+		D3E2FB9A1878BAF800EE0F1A /* puppet_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppet_pressed.png; sourceTree = "<group>"; };
+		D3E2FB9E1878C07500EE0F1A /* bacetto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bacetto.mp3; sourceTree = "<group>"; };
+		D3E2FBA01878C0AA00EE0F1A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E2FBA11878C0AA00EE0F1A /* AVFoundation.framework in Frameworks */,
+				D3E2FB941878B58C00EE0F1A /* QuartzCore.framework in Frameworks */,
 				D3E2FB5A1878B53B00EE0F1A /* CoreGraphics.framework in Frameworks */,
 				D3E2FB5C1878B53B00EE0F1A /* UIKit.framework in Frameworks */,
 				D3E2FB581878B53B00EE0F1A /* Foundation.framework in Frameworks */,
@@ -82,6 +102,8 @@
 		D3E2FB4B1878B53B00EE0F1A = {
 			isa = PBXGroup;
 			children = (
+				D3E2FB971878BAF800EE0F1A /* assets */,
+				D3E2FB8C1878B58500EE0F1A /* UIEffectDesignerView */,
 				D3E2FB5D1878B53B00EE0F1A /* bacetto */,
 				D3E2FB7C1878B53B00EE0F1A /* bacettoTests */,
 				D3E2FB561878B53B00EE0F1A /* Frameworks */,
@@ -101,6 +123,8 @@
 		D3E2FB561878B53B00EE0F1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3E2FBA01878C0AA00EE0F1A /* AVFoundation.framework */,
+				D3E2FB931878B58C00EE0F1A /* QuartzCore.framework */,
 				D3E2FB571878B53B00EE0F1A /* Foundation.framework */,
 				D3E2FB591878B53B00EE0F1A /* CoreGraphics.framework */,
 				D3E2FB5B1878B53B00EE0F1A /* UIKit.framework */,
@@ -150,6 +174,30 @@
 				D3E2FB7F1878B53B00EE0F1A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3E2FB8C1878B58500EE0F1A /* UIEffectDesignerView */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FB8D1878B58500EE0F1A /* NSData+Base64.h */,
+				D3E2FB8E1878B58500EE0F1A /* NSData+Base64.m */,
+				D3E2FB8F1878B58500EE0F1A /* UIEffectDesignerView.h */,
+				D3E2FB901878B58500EE0F1A /* UIEffectDesignerView.m */,
+			);
+			name = UIEffectDesignerView;
+			path = bacetto/UIEffectDesignerView;
+			sourceTree = "<group>";
+		};
+		D3E2FB971878BAF800EE0F1A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FB9E1878C07500EE0F1A /* bacetto.mp3 */,
+				D3E2FB981878BAF800EE0F1A /* hearts.ped */,
+				D3E2FB991878BAF800EE0F1A /* puppet_normal.png */,
+				D3E2FB9A1878BAF800EE0F1A /* puppet_pressed.png */,
+			);
+			name = assets;
+			path = bacetto/assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +277,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E2FB9D1878BAF800EE0F1A /* puppet_pressed.png in Resources */,
+				D3E2FB9B1878BAF800EE0F1A /* hearts.ped in Resources */,
 				D3E2FB701878B53B00EE0F1A /* Images.xcassets in Resources */,
+				D3E2FB9C1878BAF800EE0F1A /* puppet_normal.png in Resources */,
 				D3E2FB621878B53B00EE0F1A /* InfoPlist.strings in Resources */,
+				D3E2FB9F1878C07500EE0F1A /* bacetto.mp3 in Resources */,
 				D3E2FB6B1878B53B00EE0F1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E2FB681878B53B00EE0F1A /* ADBAppDelegate.m in Sources */,
+				D3E2FB911878B58500EE0F1A /* NSData+Base64.m in Sources */,
 				D3E2FB641878B53B00EE0F1A /* main.m in Sources */,
+				D3E2FB921878B58500EE0F1A /* UIEffectDesignerView.m in Sources */,
 				D3E2FB6E1878B53B00EE0F1A /* ADBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
